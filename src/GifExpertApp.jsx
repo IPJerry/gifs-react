@@ -4,7 +4,7 @@ import { AddCategory, GifGrid  } from './components';
 
 export const GifExpertApp = () => {
 
-    //Creamos un hook par las categorias
+    //Creamos un hok par las categorias
     const [ categories, setCategories ] = useState( ['Motos'] );
 
     const onAddCategory = ( newCategory ) => {
